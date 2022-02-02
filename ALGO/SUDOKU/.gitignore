@@ -1,0 +1,8 @@
+# Files we don't need to track
+
+*~
+.*.swp
+*.o
+*.la
+*.lo
+main
