@@ -34,8 +34,6 @@ int factorielleTom(int a){
 
 
 int main(int argc, char * argv[]){
-	printf("%d\n",factorielle(5));
 	printf("%d\n",factorielle2(5,1));
-	printf("%d\n",factorielleTom(5));
 	return 0;
 }

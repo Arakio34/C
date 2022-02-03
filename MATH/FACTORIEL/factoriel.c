@@ -4,8 +4,8 @@
 
 
 int factoriel(int nb){
-    if(nb == 2){
-        return 2;
+    if(nb == 1){
+        return 1;
     }
     else{
         return nb*factoriel(nb-1);
@@ -26,4 +26,15 @@ int convolution(int p, int n){
         return -1;
     }
     return factoriel(n)/(factoriel(p)*factoriel(n-p));
+}
+
+int premier(int val){
+    int test = 0;
+    for(int i = 2 ; i<val || test==1; i++){
+        if(val%i == 0){
+            test++;
+            return 1;
+        }
+    }
+    return 0;
 }

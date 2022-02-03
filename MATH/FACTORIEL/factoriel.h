@@ -4,4 +4,5 @@
 int factoriel(int nb);
 int arangement(int p, int n);
 int convolution(int p, int n);
+int premier(int val);
 #endif

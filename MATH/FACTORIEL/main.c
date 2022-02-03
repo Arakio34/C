@@ -22,5 +22,11 @@ int main(int argv, char ** argc){
     int convolution1 = 0;
     convolution1=convolution(p2,n2);
     printf("Convolution de p = %d et n = %d : %d\n",p2,n2,convolution1);
+    
+    int x1=542;
+    int x2=10;
+    premier(x1);
+    premier(x2);
+
     return 0;
 }
