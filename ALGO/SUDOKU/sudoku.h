@@ -1,15 +1,13 @@
 #ifndef __SUDOKU__H__
 #define __SUDOKU__H__
 
-typedef struct {
-    int value;
-    int posibiliter[9];
+struct Scase {
+	int chiffre;
+	int * possibiliter;
+};
 
-} caseD;
+typedef struct Scase Tcase;
 
-void creerSudoku(caseD *** sudoku);
-void printSudoku(caseD ** sudoku);
-void freeSudoku(caseD *** sudoku);
-int verifLigne(caseD ** sudoku);
-int sommeTab(int * tab, int taille);
+void creeSudoku(Tcase ** sudoku, int * valeur);
+int verifyTableau(int * valeur);
 #endif
