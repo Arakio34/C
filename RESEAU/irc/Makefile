@@ -3,10 +3,10 @@ CFLAGS=-Wall -g
 EXEC=main
 all: $(EXEC)
 
-main: matrice.o main.o
+main: ttirc.o main.o
 	$(CC) -o $@ $^ -lm 
 
-main.o: matrice.h
+main.o: ttirc.h
 
 %.o: %.c
 	$(CC) -o $@ -c $< $(CFLAGS) 	
