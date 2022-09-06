@@ -1,6 +1,6 @@
-#define <stdio.h>
-#define <stdlib.h>
-#define <SDL2/SDL.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <SDL2/SDL.h>
 
 int main(){
 	SDL_Window *window=NULL;

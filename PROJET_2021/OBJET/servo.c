@@ -13,6 +13,7 @@ int test = 0;
 int state = 0;
 struct mosquitto *mosqa;
 int conte =0;
+
 void my_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message)
 {
 	if(message->payloadlen){

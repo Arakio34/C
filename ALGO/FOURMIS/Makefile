@@ -3,4 +3,4 @@ CFLAGS=-Wall
 EXEC=fourmis
 
 fourmis: 
-	$(CC) $(CFLAGS) -o $(EXEC) *.c
+	$(CC) $(CFLAGS) fourmis1_0.c -o $(EXEC) 
